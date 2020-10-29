@@ -4,7 +4,7 @@ const Form = ({ todos, setTodos}) => {
 
 const submitTodoHandler = (e)=>{
     e.preventDefault();
-    setTodos([...todos, {key: Math.random() * 1000}]);
+    setTodos([...todos, {key: Math.random() * 1000}]);   // Didn't understand this
     // setInputText("");
 };
 
